@@ -10,4 +10,10 @@ func main() {
 	fmt.Println(nilai32)
 	fmt.Println(nilai64)
 	fmt.Println(nilai16)
+
+	var name = "Salahudin"
+	var e = name[0]
+	var getName = string(e)
+
+	fmt.Println(getName)
 }
